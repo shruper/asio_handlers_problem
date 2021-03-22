@@ -39,10 +39,7 @@ private:
                                      {
                                          std::cout << "written";
                                      }
-                                     else
-                                     {
-                                         socket_.close();
-                                     }
+                                     close();
                                  });
     }
 
@@ -66,7 +63,6 @@ int main(int argc, char* argv[])
         std::thread t([&io_context](){ io_context.run(); });
 
         c.write();
-        c.close();
         t.join();
     }
     catch (std::exception& e)
