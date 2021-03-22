@@ -1,0 +1,78 @@
+ @asio|1616425076.005736|0*1|socket@0x7ffd9edef168.async_accept
+@asio|1616425076.005847|.1|non_blocking_accept,ec=system:11
+@asio|1616425084.454228|.1|non_blocking_accept,ec=system:0
+@asio|1616425084.454277|>1|ec=system:0
+@asio|1616425084.454311|1*2|socket@0x2585728.async_receive
+@asio|1616425084.454335|.2|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1616425084.454449|1*3|socket@0x7ffd9edef168.async_accept
+@asio|1616425084.454485|.3|non_blocking_accept,ec=system:11
+@asio|1616425084.454495|<1|
+@asio|1616425084.454517|.2|non_blocking_recv,ec=asio.misc:2,bytes_transferred=0
+@asio|1616425084.454532|>2|ec=asio.misc:2,bytes_transferred=0
+@asio|1616425084.454544|2*4|strand@0x25860a0.post
+@asio|1616425084.454562|2*5|strand@0x25860a0.post
+@asio|1616425084.454574|2*6|strand@0x25860a0.post
+@asio|1616425084.454585|2*7|strand@0x25860a0.post
+@asio|1616425084.454597|2*8|strand@0x25860a0.post
+@asio|1616425084.454609|2*9|strand@0x25860a0.post
+@asio|1616425084.454606|>4|
+@asio|1616425084.454620|2*10|strand@0x25860a0.post
+@asio|1616425084.454632|2*11|strand@0x25860a0.post
+@asio|1616425084.454641|2*12|strand@0x25860a0.post
+@asio|1616425084.454650|2*13|strand@0x25860a0.post
+@asio|1616425084.454658|<2|
+handler created:  0
+@asio|1616425084.454740|4*14|socket@0x2585728.async_send
+@asio|1616425084.454825|.14|non_blocking_send,ec=system:0,bytes_transferred=40
+@asio|1616425084.454849|<4|
+@asio|1616425084.454866|>5|
+@asio|1616425084.454870|>14|ec=system:0,bytes_transferred=40
+handler created:  1
+@asio|1616425084.454906|5*15|socket@0x2585728.async_send
+handler completed:  0
+@asio|1616425084.454923|<14|
+@asio|1616425084.454923|.15|non_blocking_send,ec=system:32,bytes_transferred=0
+@asio|1616425084.454948|<5|
+@asio|1616425084.454959|>6|
+@asio|1616425084.454958|>15|ec=system:32,bytes_transferred=0
+handler created:  2
+handler completed:  1
+@asio|1616425084.454981|6*16|socket@0x2585728.async_send
+@asio|1616425084.454989|<15|
+@asio|1616425084.454993|.16|non_blocking_send,ec=system:32,bytes_transferred=0
+@asio|1616425084.455015|<6|
+@asio|1616425084.455021|>16|ec=system:32,bytes_transferred=0
+@asio|1616425084.455030|>7|
+handler completed:  2
+@asio|1616425084.455061|<16|
+handler created:  3
+@asio|1616425084.455081|7*17|socket@0x2585728.async_send
+@asio|1616425084.455098|<7|
+@asio|1616425084.455109|>8|
+handler created:  4
+@asio|1616425084.455132|8*18|socket@0x2585728.async_send
+@asio|1616425084.455144|<8|
+@asio|1616425084.455154|>9|
+handler created:  5
+@asio|1616425084.455156|.17|non_blocking_send,ec=system:32,bytes_transferred=0
+@asio|1616425084.455174|9*19|socket@0x2585728.async_send
+@asio|1616425084.455192|<9|
+@asio|1616425084.455190|>17|ec=system:32,bytes_transferred=0
+@asio|1616425084.455202|>10|
+handler created:  6
+@asio|1616425084.455235|10*20|socket@0x2585728.async_send
+handler completed:  3
+@asio|1616425084.455247|<10|
+@asio|1616425084.455257|<17|
+@asio|1616425084.455260|>11|
+handler created:  7
+@asio|1616425084.455287|11*21|socket@0x2585728.async_send
+@asio|1616425084.455299|<11|
+@asio|1616425084.455308|>12|
+handler created:  8
+@asio|1616425084.455328|12*22|socket@0x2585728.async_send
+@asio|1616425084.455339|<12|
+@asio|1616425084.455351|>13|
+handler created:  9
+@asio|1616425084.455371|13*23|socket@0x2585728.async_send
+@asio|1616425084.455383|<13|
